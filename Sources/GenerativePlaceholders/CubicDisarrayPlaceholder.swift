@@ -69,5 +69,6 @@ public struct CubicDisarrayPlaceholder: View {
 struct CubicDisarrayPlaceholder_Previews: PreviewProvider {
     static var previews: some View {
         CubicDisarrayPlaceholder()
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }

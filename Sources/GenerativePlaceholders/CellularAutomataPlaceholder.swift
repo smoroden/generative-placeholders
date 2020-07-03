@@ -88,5 +88,6 @@ public struct CellularAutomataPlaceholder: View {
 struct CellularAutomataPlaceholder_Previews: PreviewProvider {
     static var previews: some View {
         CellularAutomataPlaceholder()
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }

@@ -11,22 +11,18 @@ import SwiftUI
 public struct TiledLinesPlaceholder: View {
     var step: CGFloat = CGFloat.random(in: 15...40)
     var strokeStyle: StrokeStyle = StrokeStyle(lineWidth: CGFloat.random(in: 1...4))
-    var background: Color = .white
     var strokeColor: Color = .black
 
     /// Inspired by https://generativeartistry.com/tutorials/tiled-lines/
     /// - Parameters:
     ///   - step: Controls how large the lines can be
     ///   - strokeStyle: Styles the lines
-    ///   - background: The background color of the view
     ///   - strokeColor: The color of the lines
     public init(step: CGFloat = CGFloat.random(in: 15...40),
                 strokeStyle: StrokeStyle = StrokeStyle(lineWidth: CGFloat.random(in: 1...4)),
-                background: Color = .white,
                 strokeColor: Color = .black) {
         self.step = step
         self.strokeStyle = strokeStyle
-        self.background = background
         self.strokeColor = strokeColor
     }
 
@@ -43,7 +39,6 @@ public struct TiledLinesPlaceholder: View {
                 }
             }
             .stroke(strokeColor, style: strokeStyle)
-            .background(background)
         }
     }
 
@@ -65,5 +60,6 @@ public struct TiledLinesPlaceholder: View {
 struct TiledLinesPlaceholder_Previews: PreviewProvider {
     static var previews: some View {
         TiledLinesPlaceholder()
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }

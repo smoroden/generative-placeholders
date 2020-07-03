@@ -65,6 +65,6 @@ public struct UnDeuxTroisPlaceholder: View {
 struct UnDeuxTroisPlaceholder_Previews: PreviewProvider {
     static var previews: some View {
         UnDeuxTroisPlaceholder()
-            .previewLayout(.fixed(width: 500, height: 500))
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }
