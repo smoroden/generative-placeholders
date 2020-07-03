@@ -30,15 +30,30 @@ CellularAutomataPlaceholder()
 TiledLinesPlaceholder()
     .frame(width: 300, height: 300)
 ```
+![Image of TiledLines 1](/Assets/tiledlines-1.png?raw=true)
+
+![Image of TiledLines 2](/Assets/tiledlines-2.png?raw=true)
+
+![Image of TiledLines 3](/Assets/tiledlines-3.png?raw=true)
 
 ### UnDeuxTrois
 ```swift
 UnDeuxTroisPlaceholder()
     .frame(width: 300, height: 300)
 ```
+![Image of UnDeuxTrois 1](/Assets/undeux-1.png?raw=true)
+
+![Image of UnDeuxTrois 2](/Assets/undeux-2.png?raw=true)
+
+![Image of UnDeuxTrois 3](/Assets/undeux-3.png?raw=true)
 
 ### CubicDisarray
 ```swift
 CubicDisarrayPlaceholder()
     .frame(width: 300, height: 300)
 ```
+![Image of CubicDisarray 1](/Assets/cubic-1.png?raw=true)
+
+![Image of CubicDisarray 2](/Assets/cubic-2.png?raw=true)
+
+![Image of CubicDisarray 3](/Assets/cubic-3.png?raw=true)
